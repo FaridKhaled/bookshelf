@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+#addBook {
+  background-color: darkgreen;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  position: sticky;
+  left: 75rem;
+}
+
+#addBook a {
+  color: white;
+}
+
+#searchContainer {
+  display: flex;
+  justify-content: stretch;
+  box-shadow: 0 1rem 1rem lightgray;
+}
+
+#backFromSearch {
+  background-color: white;
+  border: none;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.fa-arrow-left {
+  color: lightgray;
+}
+
+form {
+  flex-basis: 80%;
+}
+
+input {
+  width: 100%;
+  height: 3rem;
+  border: 0;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+}
+
+form :focus {
+  outline: none;
+}
+
+.booksContainer {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-auto-flow: row;
+  margin: auto;
+}
+
+.book {
+  width: 10rem;
+  height: 12rem;
+  /* display: flex;
+  flex-direction: column; */
+  margin: auto;
+  margin-bottom: 10rem;
+}
+
+.book h5 {
+  margin: 0;
+}
+
+.book p {
+  margin: 0;
+}
+
+.author {
+  color: gray;
+}
+
+#MoveTo {
+  background-color: darkgreen;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+}
